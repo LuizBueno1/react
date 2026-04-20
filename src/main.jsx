@@ -4,8 +4,9 @@ import { createRoot } from "react-dom/client";
 import FirstComponent from "./components/FirstComponent";
 import Image from "./components/Image";
 import Style from "./components/Style";
+import Conditional from "./components/Conditional";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Style />
+    <Conditional average={7} />
 );
