@@ -9,8 +9,9 @@ import Choice from "./components/Choice";
 import Listing from "./components/Listing";
 import Events from "./components/Events";
 import Functions from "./components/Functions";
+import State from "./components/State";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Functions />
+    <State />
 );
