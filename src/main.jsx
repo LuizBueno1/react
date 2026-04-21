@@ -6,8 +6,9 @@ import Image from "./components/Image";
 import Style from "./components/Style";
 import Conditional from "./components/Conditional";
 import Choice from "./components/Choice";
+import Listing from "./components/Listing";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Choice status={"inactive"} />
+    <Listing />
 );
