@@ -8,8 +8,9 @@ import Conditional from "./components/Conditional";
 import Choice from "./components/Choice";
 import Listing from "./components/Listing";
 import Events from "./components/Events";
+import Functions from "./components/Functions";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Events />
+    <Functions />
 );
