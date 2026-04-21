@@ -7,8 +7,9 @@ import Style from "./components/Style";
 import Conditional from "./components/Conditional";
 import Choice from "./components/Choice";
 import Listing from "./components/Listing";
+import Events from "./components/Events";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Listing />
+    <Events />
 );
