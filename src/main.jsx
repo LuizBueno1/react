@@ -10,8 +10,9 @@ import Listing from "./components/Listing";
 import Events from "./components/Events";
 import Functions from "./components/Functions";
 import State from "./components/State";
+import Container from "./components/Container";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <State />
+    <Container />
 );
