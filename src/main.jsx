@@ -11,8 +11,10 @@ import Events from "./components/Events";
 import Functions from "./components/Functions";
 import State from "./components/State";
 import Container from "./components/Container";
+import Form from "./components/Form";
+import Form2 from "./components/Form2";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Container />
+    <Form2 />
 );
