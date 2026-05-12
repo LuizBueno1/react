@@ -13,8 +13,9 @@ import State from "./components/State";
 import Container from "./components/Container";
 import Form from "./components/Form";
 import Form2 from "./components/Form2";
+import Props from "./components/Props";
 
 //Show components
 createRoot(document.getElementById("root")).render(
-    <Form2 />
+    <Props name="Luiz" city="São Paulo" age={18} />
 );
